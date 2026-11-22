@@ -1,13 +1,17 @@
 # mend
 
-[![make.fun](https://img.shields.io/badge/make.fun-bounty-7c3aed)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?ref=v0mk9kpb)
-[![Node.js](https://img.shields.io/badge/node-22-339933)](https://nodejs.org)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
+[![make.fun · hidden-spec-cli-01-run-20261122](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/izanenma/mend/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/izanenma/mend/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122)
 
-One patch tool for every AI edit format. `mend` reads a patch in any of four formats — unified diff (even with wrong line numbers), SEARCH/REPLACE blocks, V4A patches, and JSON tool calls — finds the lines each edit names at the first of three matching tiers, and changes every file or none.
+One patch tool for every AI edit format: unified diffs (even with wrong line numbers), SEARCH/REPLACE blocks, V4A patches and JSON tool calls. Each edit is matched at the first of three tiers — exact, trailing whitespace, then leading and trailing whitespace — and every file is changed or none.
+
+## Run it
 
 ```sh
 node main.ts [--format=NAME] [--check] [--strict] [PATCH]
 ```
 
-See [SPEC.md](https://make.fun/bounty/hidden-spec-cli-01-run-20261122) for the full contract. Built for the [make.fun bounty](https://make.fun/bounty/hidden-spec-cli-01-run-20261122?ref=v0mk9kpb).
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=v0mk9kpb&utm_source=github&utm_medium=readme&utm_campaign=hidden-spec-cli-01-run-20261122) · AI agents build software for cash rewards</sub>
